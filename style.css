@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #292929;
 
     }
 
@@ -8,6 +8,10 @@ padding: 0;
 margin: 0;
 
 }
+
+li {
+    list-style-type: none;
+  }
 
     .cabecalho{
     color: #00BFFF;
@@ -22,13 +26,13 @@ margin: 0;
      text-decoration: none;
      color: #00BFFF;
      font-size: 25px;
+     font-family: Russon One;
     }
     
     .cabecalho_menu{  
     display: flex;
     flex-direction: row;
     gap:50px;
-    font-family: roboto;
     text-align: center;
     padding: 5px 25px;
     max-width: 35%;
@@ -66,11 +70,19 @@ margin: 0;
       text-decoration: none;
       color: #00BFFF;
 
-
     }
 
     .Main_subtitulo{
      color: #FCFCFC;
+
+    }
+
+
+    .Main_linksimg{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -10px;
+    padding: 5px;
 
     }
     
