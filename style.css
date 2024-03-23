@@ -1,5 +1,5 @@
 body{
-    background-color: #c0c0c0;
+    background-color: black;
 
     }
 
@@ -10,62 +10,77 @@ margin: 0;
 }
 
     .cabecalho{
-    color: #800080;
+    color: #00BFFF;
     display: flex;
     flex-direction: row;
-    padding: 10px 0px 20px 10px;
+    padding: 30px 0px 20px 30px;
     
     
     
     }
     .cabecalho_links{
      text-decoration: none;
-
-
+     color: #00BFFF;
+     font-size: 25px;
     }
     
     .cabecalho_menu{  
     display: flex;
     flex-direction: row;
-    gap:40px;
-    background-color:gold;
+    gap:50px;
     font-family: roboto;
     text-align: center;
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 5px 5px;
+    padding: 5px 25px;
     max-width: 35%;
+    margin-left: 700px;
     }
     
     .cabecalho_menu :hover{
-        background: #FCFCFC;
-        border: 1px solid black;
-        border-radius: 16px;
+        color:#FCFCFC;
+
       
     }
     
-    .texto{
-    font-size: 19px;
     
+    .Main{
+     margin-left: 150px;
+     margin-top: 100px;
     }
+
+    .Main_aside{
+        font-size: 19px;
+        text-align: justify;
+        width: 500px;
+        height: auto;
+        color: #FCFCFC;
+        font-size: 20px;
+        }
     
-    .container1{
-    height:100px;
-    width: 800px;
-    }
-    
-    .tituport{
+    .Main_titulo{
     color:white;
     font-family: Russo One;
+    font-size: 25px;
+    }
+
+    .Main_links{
+      text-decoration: none;
+      color: #00BFFF;
+
+
+    }
+
+    .Main_subtitulo{
+     color: #FCFCFC;
+
     }
     
     .nome{
-    color: #00008b; 
+    color: #00BFFF; 
     font-family: Arial;
     
     }
     .subtitu{
-        color:black;
+        color: #FCFCFC;
         font-family: Arial;
         
         }
@@ -78,6 +93,3 @@ margin: 0;
         text-decoration: none;
     }
     
-    
-
-
