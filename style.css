@@ -70,12 +70,17 @@ li {
       text-decoration: none;
       color: white;
       text-align: center;
+      border: 2px solid white;
+      padding: 0px 20px 10px 10px;
+      border-radius: 8px;
 
     }
 
     .Footer_subtitulo{
      color: #FCFCFC;
-    
+     padding: 10px 20px 30px 30px;
+     margin-bottom: -10px;
+     font-size: 25px;
 
     }
 
@@ -85,15 +90,25 @@ li {
     width: 30px;
     margin-bottom: -10px;
     padding: 5px;
+ 
 
     }
     
     .Footer_linkM{
     display: flex;
-flex-direction: row;
-
+   flex-direction: row;
+   gap: 150px;
+   padding: 0px 50px 30px 50px;
+   margin-left: 400px;
 
     }
+
+    .Footer_linkM :hover{
+      color: #292929;
+    
+        }
+
+
     .Footer{
       width: 100%;
       height:auto;
